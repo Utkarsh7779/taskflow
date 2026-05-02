@@ -1,4 +1,3 @@
-cat > models/Task.js << 'EOF'
 const mongoose = require('mongoose');
 
 const taskSchema = new mongoose.Schema({
@@ -14,4 +13,3 @@ const taskSchema = new mongoose.Schema({
 }, { timestamps: true });
 
 module.exports = mongoose.model('Task', taskSchema);
-EOF

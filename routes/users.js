@@ -1,4 +1,3 @@
-cat > routes/users.js << 'EOF'
 const express = require('express');
 const User = require('../models/User');
 const { auth } = require('../middleware/auth');
@@ -38,4 +37,3 @@ router.put('/:id/role', auth, async (req, res) => {
 });
 
 module.exports = router;
-EOF

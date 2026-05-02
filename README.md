@@ -3,8 +3,8 @@
 A full-stack project & task management web app with role-based access control.
 
 ## 🚀 Live Demo
-- **Frontend:** *(your Netlify/Vercel URL)*
-- **Backend API:** *(your Railway URL)*
+- **Frontend:** *Netlify*
+- **Backend API:** *your Railway*
 
 ## ✨ Features
 - **Authentication** — JWT-based signup/login with role selection (Admin/Member)
